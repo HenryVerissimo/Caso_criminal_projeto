@@ -75,10 +75,7 @@ class CasoCriminal:
     
 
     def __verificar_resposta(self, resposta: str) -> bool:
-        if resposta in ["sim", "não", "nao"]:
-            return True
-        else:
-            return False
+        return resposta in ["sim", "não", "nao"]
 
 
     def __confirmar_resposta(self, resposta: str) -> bool:
@@ -95,8 +92,7 @@ class CasoCriminal:
 
 
     def __incrementar_respostas_afirmativas(self, resposta: str) -> None:
-        if resposta == "sim":
-            self.__respostas_afirmativas += 1
+        if resposta == "sim":  self.__respostas_afirmativas += 1
 
 
     def __printar_veredito(self) -> None:

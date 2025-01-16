@@ -3,9 +3,7 @@ from Erros import ErroPrevisto
 from Terminal import limpar_terminal
 from time import sleep
 
-
-if __name__ == "__main__":
-
+def start():
     while True:
         sleep(1)
         limpar_terminal()
@@ -21,6 +19,13 @@ if __name__ == "__main__":
 
         else:
             ErroPrevisto.resposta_invalida()
-
+            
     limpar_terminal()
     print("Programa finalizado!")
+
+
+if __name__ == "__main__":
+
+    start()
+
+    
