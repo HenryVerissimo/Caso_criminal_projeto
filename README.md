@@ -4,10 +4,7 @@ Programa simples feito na linguagem Python🐍💻
 
 Programa Back-end feito para treinar:
 
-- Orientação a objetos:
-    • Métodos estáticos
-    • injeção de dependência
-    • encapsulamento
+- Orientação a objetos: Métodos estáticos, injeção de dependência e encapsulamento
 - Tratamento de erros
 - modularização de código
 - Lógica de programação
